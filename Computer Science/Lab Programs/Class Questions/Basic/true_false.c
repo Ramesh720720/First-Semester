@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main(){
-    int a=true;
+    int a = 0;
     if(a){
-        printf("Hello world !");
+        printf("Hello !");
     }else{
         printf("Good Bye");
     }
-    }
+    return 0;
+}
