@@ -12,7 +12,7 @@ int main(){
         for ( j = 0; j < column; j++)
         {
             printf("Enter value on row %d and column %d : ",i,j);
-            scanf("%d",matric1[i][j]);
+            scanf("%d",&matric1[i][j]);
         }
         
     }
@@ -21,7 +21,7 @@ int main(){
         for ( j = 0; j < column; j++)
         {
             printf("Enter value on row %d and column %d : ",i,j);
-            scanf("%d",matric2[i][j]);
+            scanf("%d",&matric2[i][j]);
         }
         
     }
@@ -39,7 +39,7 @@ int main(){
     {
         for ( j = 0; j < column; j++)
         {
-            printf("%d",result[i][j]);
+            printf("%d\t",result[i][j]);
         }
         printf("\n");
     }
