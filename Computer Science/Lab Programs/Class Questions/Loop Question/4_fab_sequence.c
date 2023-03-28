@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int input;
-    printf("how many time squence to be run : ");
+    printf("how many times squence to be run : ");
     scanf("%d",&input);
      int start=0; 
      int num=1;
