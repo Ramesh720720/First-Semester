@@ -2,7 +2,7 @@
 int sum(int, int);
 int sub(int, int);
 int multi(int, int);
-float divide(int, int);
+float divide(float, float);
 int main()
 {
     int a, b;
@@ -46,7 +46,7 @@ int multi(int x, int y)
 {
     return x * y;
 }
-float divide(int x, int y)
+float divide(float x, float y)
 {
-    return x / y;
+    return x/y;
 }
